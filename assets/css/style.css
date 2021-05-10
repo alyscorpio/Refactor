@@ -64,7 +64,7 @@ section {
     margin-left: 20px;
 }
 
-.services {
+.search_engine {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -73,8 +73,37 @@ section {
     color: #ffffff;
 }
 
-.context_image {
-    max-height: 200px;
+.context_image1 {
+    display: inline-block;
+    max-width: 200px;
+}
+
+.reputation {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.context_image2 {
+    display: inline-block;
+    max-width: 200px;
+}
+
+.social_media {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.context_image3 {
+    display: inline-block;
+    max-width: 200px;
 }
 
 h2 {
@@ -86,16 +115,15 @@ p {
     font-size: 16px;
 }
 
-.float-left {
+#float-left {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+#float-right {
     float: right;
     margin-left: 25px;
 }
-
 
 aside {
     margin-right: 20px;
