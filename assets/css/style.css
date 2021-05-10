@@ -52,6 +52,7 @@ a {
 .hero {
     height: 800px;
     width: 100%;
+
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     alt: "Horiseon marketing meeting";
@@ -63,9 +64,11 @@ section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    vertical-align: middle;
 }
 
 .search_engine, .reputation, .social_media {
+    position: relative;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -77,6 +80,8 @@ section {
 .context_image1, .context_image2, .context_image3 {
     max-width: 350px;
     display: inline-block;
+    position: relative;
+    bottom: 15px;  
 }
 
 h2 {
@@ -132,7 +137,7 @@ footer {
     text-align: center;
 }
 
-.footer h2 {
+#footer-text {
     font-size: 20px;
     alt:"Made with love by Horiseon";
 }
