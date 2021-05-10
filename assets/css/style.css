@@ -54,6 +54,7 @@ a {
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
+    alt: "Horiseon marketing meeting";
     background-size: cover;
     background-position: center;
 }
@@ -75,7 +76,7 @@ section {
 
 .context_image1 {
     display: inline-block;
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .reputation {
@@ -89,7 +90,7 @@ section {
 
 .context_image2 {
     display: inline-block;
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .social_media {
@@ -103,7 +104,7 @@ section {
 
 .context_image3 {
     display: inline-block;
-    max-width: 200px;
+    max-width: 300px;
 }
 
 h2 {
